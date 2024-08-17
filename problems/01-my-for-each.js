@@ -1,7 +1,8 @@
 /*******************************************************************************
-Write a function `myForEach` that accepts an array and a callback as arguments.
-The function should call the callback on each element of the array, passing in the
-element, index, and array itself. The function does not need to return any value.
+Write a function `myForEach` that accepts an array and a callback as
+arguments.  The function should call the callback on each element of the
+array, passing in the element, index, and array itself. The function
+does not need to return any value.
 
 Do not use the built in Array.forEach.
 
