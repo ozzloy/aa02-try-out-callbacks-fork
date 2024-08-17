@@ -29,6 +29,6 @@ function firstIndex(array, cb) {
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = firstIndex;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export firstIndex:', e);
 }

@@ -42,7 +42,7 @@ function selectiveMap(array, selector, mapper) {
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
-    module.exports = selectiveMap;
-} catch(e) {
-    return null;
+  module.exports = selectiveMap;
+} catch (e) {
+  console.error('failed to export selectiveMap:', e);
 }

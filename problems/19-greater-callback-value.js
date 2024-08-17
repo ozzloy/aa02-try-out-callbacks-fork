@@ -26,5 +26,5 @@ function greaterCallbackValue(val, cb1, cb2) {
 try {
   module.exports = greaterCallbackValue;
 } catch (e) {
-  return null;
+  console.error('failed to export greaterCallbackValue:', e);
 }

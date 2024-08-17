@@ -38,5 +38,5 @@ function mySimpleReduce(array, cb) {
 try {
   module.exports = mySimpleReduce;
 } catch (e) {
-  return null;
+  console.error('failed to export mySimpleReduce:', e);
 }

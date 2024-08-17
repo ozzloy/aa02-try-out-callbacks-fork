@@ -36,5 +36,5 @@ function none(array, cb) {
 try {
   module.exports = none;
 } catch (e) {
-  return null;
+  console.error('failed to export none:', e);
 }

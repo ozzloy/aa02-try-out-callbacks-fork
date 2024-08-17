@@ -27,7 +27,7 @@ function myEvery(array, cb) {
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
-    module.exports = myEvery;
-  } catch(e) {
-    return null;
-  }
+  module.exports = myEvery;
+} catch (e) {
+  console.error('failed to export myEvery:', e);
+}

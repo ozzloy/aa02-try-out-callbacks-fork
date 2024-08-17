@@ -34,5 +34,5 @@ function count(array, cb) {
 try {
   module.exports = count;
 } catch(e) {
-  return null;
+  console.error('failed to export count:', e);
 }

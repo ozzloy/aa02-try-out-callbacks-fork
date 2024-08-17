@@ -38,6 +38,6 @@ let xorSelect = function(array, cb1, cb2) {
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = xorSelect;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export xorSelect:', e);
 }

@@ -37,5 +37,5 @@ function chainMap(val, ...callbacks) {
 try {
   module.exports = chainMap;
 } catch(e) {
-  return null;
+  console.error('failed to export chainMap:', e);
 }

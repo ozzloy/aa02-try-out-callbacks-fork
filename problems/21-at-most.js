@@ -28,5 +28,5 @@ function atMost(array, max, cb) {
 try {
   module.exports = atMost;
 } catch (e) {
-  return null;
+  console.error('failed to export atMost:', e);
 }

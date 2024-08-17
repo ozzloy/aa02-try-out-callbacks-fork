@@ -28,7 +28,7 @@ function myForEach(array, cb) {
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
-    module.exports = myForEach;
-} catch(e) {
-    return null;
+  module.exports = myForEach;
+} catch (e) {
+  console.error('failed to export myForEach:', e)
 }

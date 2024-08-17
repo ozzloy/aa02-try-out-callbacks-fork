@@ -36,5 +36,5 @@ function andSelect(array, cb1, cb2) {
 try {
   module.exports = andSelect;
 } catch(e) {
-  return null;
+  console.error('failed to export andSelect:', e);
 }

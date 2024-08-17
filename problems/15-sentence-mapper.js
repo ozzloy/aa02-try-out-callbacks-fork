@@ -33,5 +33,5 @@ let sentenceMapper = function (sentence, cb) {
 try {
   module.exports = sentenceMapper;
 } catch (e) {
-  return null;
+  console.error('failed to export sentenceMapper:', e);
 }

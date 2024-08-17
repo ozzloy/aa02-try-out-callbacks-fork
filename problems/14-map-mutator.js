@@ -26,5 +26,5 @@ function mapMutator(array, cb) {
 try {
   module.exports = mapMutator;
 } catch(e) {
-  return null;
+  console.error('failed to export mapMutator:', e);
 }

@@ -29,5 +29,5 @@ function multiMap(val, n, cb) {
 try {
   module.exports = multiMap;
 } catch(e) {
-  return null;
+  console.error('failed to export multiMap:', e);
 }

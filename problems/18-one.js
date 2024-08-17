@@ -45,6 +45,6 @@ function one(array, cb) {
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = one;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export one:', e);
 }

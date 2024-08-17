@@ -29,7 +29,7 @@ function mySome(array, cb) {
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
-    module.exports = mySome;
-} catch(e) {
-    return null;
+  module.exports = mySome;
+} catch (e) {
+  console.error('failed to export mySome:', e);
 }

@@ -38,6 +38,6 @@ function suffixCipher(sentence, cipher) {
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = suffixCipher;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export suffixCipher:', e);
 }

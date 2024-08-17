@@ -28,6 +28,6 @@ function reject(array, cb) {
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = reject;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export reject:', e);
 }

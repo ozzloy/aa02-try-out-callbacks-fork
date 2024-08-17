@@ -42,5 +42,5 @@ function alternatingMap(array, cb1, cb2) {
 try {
   module.exports = alternatingMap;
 } catch(e) {
-  return null;
+  console.error('failed to export alternatingMap:', e);
 }

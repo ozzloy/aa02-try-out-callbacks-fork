@@ -35,5 +35,5 @@ function exactly(array, num, cb) {
 try {
   module.exports = exactly;
 } catch(e) {
-  return null;
+  console.error('failed to export exactly:', e);
 }
