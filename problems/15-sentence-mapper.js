@@ -26,7 +26,7 @@ console.log(result2); // 'ths s prtty cl rght'
 *******************************************************************************/
 
 let sentenceMapper = function (sentence, cb) {
-  // Your code here 
+  // Your code here
 };
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
